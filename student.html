@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiante - Gestión de Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Proyectos - Estudiante</h1>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="#">Mis Proyectos</a>
+        <a href="#">Proyectos Publicados</a>
+        <a href="#">Comentarios</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Panel de Estudiante</h2>
+            <p>Como estudiante, puedes publicar tus propios proyectos y ver los proyectos publicados por otros.</p>
+        </section>
+        <section>
+            <h2>Mis Proyectos</h2>
+            <div class="project-list">
+                <!-- Lista de proyectos del estudiante -->
+                <div class="project-card">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripción del proyecto 1</p>
+                    <button>Publicar</button>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2</p>
+                    <button>Publicar</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Proyectos Publicados</h2>
+            <div class="project-list">
+                <!-- Lista de proyectos publicados -->
+                <div class="project-card">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripción del proyecto 3</p>
+                    <button>Ver Detalles</button>
+                    <div class="comments">
+                        <h4>Comentarios</h4>
+                        <div class="comment-container">
+                            <p>Buen trabajo.</p>
+                            <p>Me gusta la idea.</p>
+                        </div>
+                        <input type="text" placeholder="Escribe un comentario">
+                        <button>Comentar</button>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Proyecto 4</h3>
+                    <p>Descripción del proyecto 4</p>
+                    <button>Ver Detalles</button>
+                    <div class="comments">
+                        <h4>Comentarios</h4>
+                        <div class="comment-container">
+                            <p>Interesante proyecto.</p>
+                            <p>¡Excelente trabajo!</p>
+                        </div>
+                        <input type="text" placeholder="Escribe un comentario">
+                        <button>Comentar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gestión de Proyectos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
