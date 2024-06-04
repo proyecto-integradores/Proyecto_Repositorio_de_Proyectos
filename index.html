@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proyectos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Proyectos</h1>
+    </header>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">Inicio</a>
+        </div>
+        <div class="nav-right">
+            <a href="login.html">Iniciar Sesión</a>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h2>Bienvenido a Gestión de Proyectos</h2>
+            <p>Esta plataforma te ayudará a organizar y gestionar tus proyectos de manera eficiente.</p>
+        </section>
+        <section>
+            <h2>Características Principales</h2>
+            <ul>
+                <li>Seguimiento de tareas y plazos</li>
+                <li>Colaboración en equipo</li>
+                <li>Informes y análisis de proyectos</li>
+                <li>Calendario y programación de eventos</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Imágenes Interactivas</h2>
+            <div class="image-container" onclick="showModal('Organiza tus Proyectos', 'Nuestra plataforma te ayuda a mantener el control de tus proyectos y tareas.')">
+                <img src="https://idimad360.com/wp-content/uploads/2023/01/Idimad360-Blog-Como-organizar-y-planificar-tus-proyectos-Gestion-de-proyectos-845x321.jpg" alt="Imagen 1">
+                <div class="image-text">Organiza tus Proyectos</div>
+            </div>
+            <div class="image-container" onclick="showModal('Colabora con tu Equipo', 'Trabaja en equipo y mantén a todos los miembros informados sobre el progreso.')">
+                <img src="https://www.mercemarti.com/wp-content/uploads/2021/08/Blog-6-980x653.jpeg" alt="Imagen 2">
+                <div class="image-text">Colabora con tu Equipo</div>
+            </div>
+            <div class="image-container" onclick="showModal('Genera Informes', 'Crea informes detallados sobre el rendimiento y el avance de tus proyectos.')">
+                <img src="https://concepto.de/wp-content/uploads/2014/03/informe.jpg" alt="Imagen 3">
+                <div class="image-text">Genera Informes</div>
+            </div>
+        </section>
+        <section>
+            <h2>Empieza a Gestionar tus Proyectos</h2>
+            <p>¡Regístrate ahora y ponte en marcha con tus proyectos!</p>
+            <a href="login.html">Iniciar Sesión</a>
+        </section>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent"></p>
+            <button onclick="hideModal()">Cerrar</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gestión de Proyectos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
